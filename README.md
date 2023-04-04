@@ -28,14 +28,40 @@ two Gaussian distributions with same variance but different
 means. 
 
 There's almost the same smooth gradient
-decreasing for GD and cyclic BCGD, while randomized BCGD produces a much more irregular
+decreasing for GD and Cyclic BCGD, while Randomized BCGD produces a much more irregular
 decreasing, since it modifies just one component of the iterate
-at each timestep.
+at each timestep. 
 
 <p align="center">
   <img src="https://github.com/silviapoletti/Semi-supervised-pulsar-stars-classification/blob/d2f7e0b5cd6b67a902707e35f7df85d4c32791b6/report/scatter_toy.png" width="40%"/>
   <img src="https://github.com/silviapoletti/Semi-supervised-pulsar-stars-classification/blob/d2f7e0b5cd6b67a902707e35f7df85d4c32791b6/report/gradplot_cropped.png" width="40%"/>
 </p>
+
+Randomized BCGD is the
+fastest method because the calculation of the partial
+derivatives is much cheaper than computing the whole
+gradient, but, for the same reason, it requires much
+more iterations to converge.
+
+Cyclic BCGD computes some partial gradients
+at each iteration, while GD directly computes the
+full gradient. Since the computational complexity of BCGD methods depends on the number of
+blocks, then Cyclic BCGD
+needs slightly fewer iterations but higher CPU time
+than GD to converge.
+
+In conclusion, all the three methods are able to reach
+an accuracy of almost 92%.
+
+# Pulsar stars dataset
+
+Since the HTRU2 dataset is strongly unbalanced, we
+selected a balanced subset composed by 800 labeled
+and 1500 unlabeled datapoints.
+This dataset is particularly suitable for our application
+because the features of the datapoints are almost
+linearly separable, as shown in the following plot.
+
 
 
 <br />
