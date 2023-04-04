@@ -22,10 +22,6 @@ examining the feature similarities of the data (see `report/essay.pdf` for more 
 
 # Toy example
 
-<img align="right" width="50%" src="https://github.com/silviapoletti/Semi-supervised-pulsar-stars-classification/blob/d2f7e0b5cd6b67a902707e35f7df85d4c32791b6/report/scatter_toy.png">
-
-<img align="right" width="50%" src="https://github.com/silviapoletti/Semi-supervised-pulsar-stars-classification/blob/d2f7e0b5cd6b67a902707e35f7df85d4c32791b6/report/gradplot_cropped.png">
-
 First, we consider a balanced toy example of 400 labeled
 and 1000 unlabeled datapoints, generated from
 two Gaussian distributions with same variance but different
@@ -37,7 +33,9 @@ decreasing, since it modifies just one component of the iterate
 at each timestep.
 
 <p align="center">
-  <img src=" " width="60%"/>
+  <img src="https://github.com/silviapoletti/Semi-supervised-pulsar-stars-classification/blob/d2f7e0b5cd6b67a902707e35f7df85d4c32791b6/report/scatter_toy.png" width="40%"/>
+  <img src="https://github.com/silviapoletti/Semi-supervised-pulsar-stars-classification/blob/d2f7e0b5cd6b67a902707e35f7df85d4c32791b6/report/gradplot_cropped.png" width="40%"/>
 </p>
+
 
 <br />
