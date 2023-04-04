@@ -62,6 +62,9 @@ This dataset is particularly suitable for our application
 because the features of the datapoints are almost
 linearly separable, as shown in the following plot.
 
+<p align="center">
+  <img src="https://github.com/silviapoletti/Semi-supervised-pulsar-stars-classification/blob/a3ae75bf8d1fa7a6011935561047fe94f184f465/report/pair_plot.png"/>
+</p>
 
 
 <br />
