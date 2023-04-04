@@ -73,7 +73,7 @@ not similar.
 
 <br />
 
-<img align="right" width="30%" src="https://github.com/silviapoletti/Semi-supervised-pulsar-stars-classification/blob/d2f7e0b5cd6b67a902707e35f7df85d4c32791b6/report/accuracy.png">
+<img align="right" width="40%" src="https://github.com/silviapoletti/Semi-supervised-pulsar-stars-classification/blob/d2f7e0b5cd6b67a902707e35f7df85d4c32791b6/report/accuracy.png">
 
 Considering the accuracy curves of the methods
 through the time needed by each method to reach
