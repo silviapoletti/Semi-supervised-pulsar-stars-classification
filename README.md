@@ -1,6 +1,6 @@
 # Pulsar Stars Classification in Semi-Supervised Learning
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/silviapoletti/Deep_Learning_notebooks/blob/main/recurrent_neural_network.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/silviapoletti/Semi-supervised-pulsar-stars-classification/blob/main/notebook.ipynb)
 
 The goal of this project is to explore and compare the
 performances of the Gradient Descent method (GD) and the
