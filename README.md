@@ -4,6 +4,8 @@
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
+<img align="right" width="30%" src="https://littleastronomy.com/wp-content/uploads/2023/01/pulsars-vs-neutron-stars.jpg">
+
 The goal of this project is to explore and compare the
 performances of the Gradient Descent method (GD) and the
 Block Coordinate Gradient Descent methods (BCGD) with randomized
